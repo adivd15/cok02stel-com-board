@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP nRF52820-QDAA-R
+D RF System on a Chip - SoC Bluetooth 5.2 SoC with built-in USB and support for Bluetooth Low Energy, Bluetooth mesh, NFC, Thread and Zigbee
+K
+F https://www.mouser.es/datasheet/2/297/Nordic_nRF52820_PB-1830007.pdf
+$ENDCMP
+#
+#End Doc Library
