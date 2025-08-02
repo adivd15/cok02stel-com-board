@@ -3915,7 +3915,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -6.35 -19.05 90)
+					(at -8.89 -19.05 90)
 					(length 2.54)
 					(name "VSS"
 						(effects
@@ -3925,6 +3925,24 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -6.35 -19.05 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5590,6 +5608,12 @@
 		(uuid "72594e33-53a2-4356-bab4-9a012feef61a")
 	)
 	(junction
+		(at 133.35 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77477144-d4d2-4438-b233-3354d6c3640b")
+	)
+	(junction
 		(at 143.51 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7009,6 +7033,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 186.69) (xy 130.81 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba4d5a61-7387-4615-ba31-c5702e13078a")
+	)
+	(wire
+		(pts
 			(xy 63.5 38.1) (xy 50.8 38.1)
 		)
 		(stroke
@@ -7516,6 +7550,16 @@
 			(type default)
 		)
 		(uuid "f650600a-6e81-4275-a5ad-4132dbac62c2")
+	)
+	(wire
+		(pts
+			(xy 130.81 189.23) (xy 133.35 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7146844-382e-4e0e-ac08-6acbaafc0088")
 	)
 	(wire
 		(pts
@@ -13867,6 +13911,9 @@
 		)
 		(pin "1"
 			(uuid "efe0ae8d-1777-4043-8410-69b597574965")
+		)
+		(pin "16"
+			(uuid "6e135ab8-a987-4905-ba01-86d1ce5ba054")
 		)
 		(instances
 			(project ""
