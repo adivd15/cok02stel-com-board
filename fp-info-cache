@@ -1,4 +1,4 @@
-25231680700190431
+25235189005395645
 2SC4738-GR_LF
 TRANS_2SC4738-GR_LF
 
@@ -69544,6 +69544,13 @@ threaded screw
 0
 4
 1
+NRF52qdaa
+QFN40P500X500X90-41N-D
+40-QFN
+Integrated Circuit
+0
+41
+41
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
@@ -101345,6 +101352,13 @@ Varistor VF
 0
 2
 2
+bu-01
+BU-01
+
+
+0
+24
+24
 footprints
 HTSSOP16_STM
 
