@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "bu-01")(type "KiCad")(uri "${KIPRJMOD}/libs/bu-01/bu-01.pretty")(options "")(descr ""))
   (lib (name "NRF52qdaa")(type "KiCad")(uri "${KIPRJMOD}/libs/nRF52820-QDAA-R/NRF52qdaa.pretty")(options "")(descr ""))
+  (lib (name "UFL")(type "KiCad")(uri "${KIPRJMOD}/libs/U.FL-R-SMT/UFL.pretty")(options "")(descr ""))
 )
