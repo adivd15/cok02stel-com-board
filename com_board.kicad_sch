@@ -1148,7 +1148,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic_MountingPin:Conn_01x04_MountingPin"
+		(symbol "Connector_Generic_MountingPin:Conn_01x06_MountingPin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1157,15 +1157,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x04_MountingPin"
-				(at 1.27 -7.62 0)
+			(property "Value" "Conn_01x06_MountingPin"
+				(at 1.27 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1191,7 +1191,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1218,16 +1218,27 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x04_MountingPin_1_1"
+			(symbol "Conn_01x06_MountingPin_1_1"
 				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(rectangle
@@ -1274,9 +1285,20 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
-						(xy -1.016 -7.112) (xy 1.016 -7.112)
+						(xy -1.016 -9.652) (xy 1.016 -9.652)
 					)
 					(stroke
 						(width 0.1524)
@@ -1287,7 +1309,7 @@
 					)
 				)
 				(text "Mounting"
-					(at 0 -6.731 0)
+					(at 0 -9.271 0)
 					(effects
 						(font
 							(size 0.381 0.381)
@@ -1295,7 +1317,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -1313,7 +1335,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -1331,7 +1353,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -1349,7 +1371,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -1367,7 +1389,43 @@
 					)
 				)
 				(pin passive line
-					(at 0 -10.16 90)
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
 					(length 3.048)
 					(name "MountPin"
 						(effects
@@ -5437,19 +5495,6 @@
 		)
 		(uuid "1c1dc362-01dd-4289-b891-89833d262591")
 	)
-	(text "PLACE POWER ENABLE PIN FRON REGULATOR TO CONNECTOR!!!!!!!"
-		(exclude_from_sim no)
-		(at 170.434 130.81 0)
-		(effects
-			(font
-				(size 7.62 7.62)
-				(thickness 1.524)
-				(bold yes)
-				(color 255 0 11 1)
-			)
-		)
-		(uuid "1d14cfb4-cc74-4756-b5ef-353c87ba01d6")
-	)
 	(text "NRF52820\n"
 		(exclude_from_sim no)
 		(at 274.574 132.588 0)
@@ -5469,6 +5514,20 @@
 			)
 		)
 		(uuid "4f1f3085-88fa-486d-9beb-376631357cf8")
+	)
+	(text "CHECK THAT 4 PAD AND 2 PAD CRYSTAL TO SEE IF IT MATCHES WITH THE CAPS"
+		(exclude_from_sim no)
+		(at 145.034 132.588 0)
+		(effects
+			(font
+				(size 6.35 6.35)
+				(thickness 1.27)
+				(bold yes)
+				(italic yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "67da384d-0f39-4a8e-adf2-eb6e7029a609")
 	)
 	(text "Connectors\n"
 		(exclude_from_sim no)
@@ -6036,6 +6095,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 144.78) (xy 265.43 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a824731-f280-4ace-84b1-38ce43007a17")
+	)
+	(wire
+		(pts
 			(xy 133.35 189.23) (xy 135.89 189.23)
 		)
 		(stroke
@@ -6176,7 +6245,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 147.32) (xy 245.11 147.32)
+			(xy 265.43 147.32) (xy 246.38 147.32)
 		)
 		(stroke
 			(width 0)
@@ -6483,6 +6552,16 @@
 			(type default)
 		)
 		(uuid "694e7ebd-a43c-40f9-862f-38d6158bc221")
+	)
+	(wire
+		(pts
+			(xy 246.38 139.7) (xy 265.43 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69ed986e-996a-4c2f-a72c-bafe7dfcf82f")
 	)
 	(wire
 		(pts
@@ -6916,6 +6995,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 102.87) (xy 217.17 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae83ec52-2d4e-4284-9a11-406169c1a017")
+	)
+	(wire
+		(pts
 			(xy 116.84 107.95) (xy 123.19 107.95)
 		)
 		(stroke
@@ -7026,16 +7115,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 143.51) (xy 257.81 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8c12bbf-838b-41c6-9571-1752054a177b")
-	)
-	(wire
-		(pts
 			(xy 33.02 60.96) (xy 33.02 63.5)
 		)
 		(stroke
@@ -7076,16 +7155,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 144.78) (xy 265.43 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd2adc46-dadd-42e3-9ecd-7648beca8404")
-	)
-	(wire
-		(pts
 			(xy 204.47 118.11) (xy 226.06 118.11)
 		)
 		(stroke
@@ -7093,6 +7162,16 @@
 			(type default)
 		)
 		(uuid "bed27444-b25e-4fd3-861a-4f6a315bcab7")
+	)
+	(wire
+		(pts
+			(xy 246.38 142.24) (xy 265.43 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf1915aa-547d-4b58-ae45-637e09954a39")
 	)
 	(wire
 		(pts
@@ -7126,7 +7205,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 149.86) (xy 245.11 149.86)
+			(xy 265.43 149.86) (xy 246.38 149.86)
 		)
 		(stroke
 			(width 0)
@@ -7664,6 +7743,16 @@
 		)
 		(uuid "fec082c0-be41-4206-a764-95544a6e3c66")
 	)
+	(label "INT"
+		(at 254 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "010296c7-0e63-4d04-8948-725c493093a1")
+	)
 	(label "UBS_D-"
 		(at 217.17 118.11 180)
 		(effects
@@ -7673,6 +7762,16 @@
 			(justify right bottom)
 		)
 		(uuid "112e51ab-3e44-4af8-8980-257ada49bfd1")
+	)
+	(label "INT"
+		(at 217.17 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "19622eeb-a0a3-4f36-ba33-be295f27889c")
 	)
 	(label "SPI_CS"
 		(at 217.17 77.47 180)
@@ -7743,6 +7842,16 @@
 			(justify right bottom)
 		)
 		(uuid "87c7929c-6cef-464e-b1a4-e73593dc0072")
+	)
+	(label "POWER_EN"
+		(at 254 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88093ce6-10fc-4c9a-afb0-3ce80571031f")
 	)
 	(label "UART_TX"
 		(at 254 149.86 0)
@@ -8004,16 +8113,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 226.06 118.11 270)
-		(mirror x)
+		(at 246.38 142.24 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "08ebd726-781a-44d8-9de4-785cdfa1900d")
-		(property "Reference" "TP15"
-			(at 231.902 119.38 90)
+		(uuid "1082afe3-8a0f-46e4-9ba8-e5c04448664b")
+		(property "Reference" "TP16"
+			(at 240.538 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8021,7 +8129,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 224.028 119.38 90)
+			(at 248.412 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8029,7 +8137,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 226.06 113.03 0)
+			(at 246.38 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8038,7 +8146,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 226.06 113.03 0)
+			(at 246.38 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8047,7 +8155,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 226.06 118.11 0)
+			(at 246.38 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8056,12 +8164,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "727fea96-a2fb-4021-9924-5d8b2b133e28")
+			(uuid "2984b34f-5be2-4ab6-87bf-09186850a4a5")
 		)
 		(instances
 			(project "com_board"
 				(path "/8f830a27-f69a-4af7-bd4a-41b62e371af3"
-					(reference "TP15")
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -8740,7 +8848,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 245.11 149.86 90)
+		(at 246.38 149.86 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8748,7 +8856,7 @@
 		(dnp no)
 		(uuid "2324c40e-d758-4d4c-8c7b-7aed1a231eee")
 		(property "Reference" "TP7"
-			(at 239.268 151.13 90)
+			(at 240.538 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8756,7 +8864,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 247.142 151.13 90)
+			(at 248.412 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8764,7 +8872,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 245.11 144.78 0)
+			(at 246.38 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8773,7 +8881,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 144.78 0)
+			(at 246.38 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8782,7 +8890,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 245.11 149.86 0)
+			(at 246.38 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9625,71 +9733,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 226.06 115.57 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4da9a55f-dbe2-42e0-9c84-d76a9f70215f")
-		(property "Reference" "TP14"
-			(at 231.902 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 224.028 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 226.06 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 226.06 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 226.06 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dc2ab6e8-8677-4976-b9ba-78859a696ae1")
-		)
-		(instances
-			(project "com_board"
-				(path "/8f830a27-f69a-4af7-bd4a-41b62e371af3"
-					(reference "TP14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 55.88 25.4 270)
 		(mirror x)
@@ -10153,6 +10196,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x06_MountingPin")
+		(at 270.51 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ce9498e-e39b-4761-9541-4bd741cce2d4")
+		(property "Reference" "UART_conn1"
+			(at 273.05 145.1355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FFC-FPC:TE_84952_6"
+			(at 273.05 147.6755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_FFC-FPC:TE_84952-6_1x06-1MP_P1.0mm_Horizontal"
+			(at 270.51 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 270.51 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 270.51 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d9a409d4-236f-43e4-968c-08f43006b404")
+		)
+		(pin "2"
+			(uuid "3af9c257-776b-48cc-930e-12af881fbb4f")
+		)
+		(pin "MP"
+			(uuid "0d06d78f-3997-4c17-9095-b4cdac5085c2")
+		)
+		(pin "4"
+			(uuid "4f006060-03fb-40b9-853f-871e62be8e6c")
+		)
+		(pin "5"
+			(uuid "4b656281-2e4b-4a3c-b77a-219153f002a9")
+		)
+		(pin "1"
+			(uuid "fb4f9ff7-e77f-4b64-b281-8afbc9de9df3")
+		)
+		(pin "6"
+			(uuid "2fc04251-c8c6-48ea-a656-8dd424cbd205")
+		)
+		(instances
+			(project "com_board"
+				(path "/8f830a27-f69a-4af7-bd4a-41b62e371af3"
+					(reference "UART_conn1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 175.26 130.81 0)
 		(unit 1)
@@ -10221,16 +10350,15 @@
 	)
 	(symbol
 		(lib_id "power:+VSW")
-		(at 257.81 143.51 0)
+		(at 246.38 139.7 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5eb6911f-62dd-4415-b87f-4b5ce506b4dc")
 		(property "Reference" "#PWR029"
-			(at 257.81 147.32 0)
+			(at 250.19 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10239,7 +10367,7 @@
 			)
 		)
 		(property "Value" "5V_VDD"
-			(at 257.81 138.43 0)
+			(at 240.284 138.684 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10247,7 +10375,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 143.51 0)
+			(at 246.38 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10256,7 +10384,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 143.51 0)
+			(at 246.38 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10265,7 +10393,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+VSW\""
-			(at 257.81 143.51 0)
+			(at 246.38 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11352,6 +11480,70 @@
 			(project "com_board"
 				(path "/8f830a27-f69a-4af7-bd4a-41b62e371af3"
 					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 246.38 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93f67216-cd84-4ff6-8617-c16724f2887d")
+		(property "Reference" "TP17"
+			(at 240.538 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 248.412 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 246.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 246.38 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b449f72-9bb9-499d-9111-7df1a0fe2b36")
+		)
+		(instances
+			(project "com_board"
+				(path "/8f830a27-f69a-4af7-bd4a-41b62e371af3"
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -13081,87 +13273,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x04_MountingPin")
-		(at 270.51 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d310ebca-cad0-4875-a8ae-8bccabaa0a8a")
-		(property "Reference" "POW_5V1"
-			(at 273.05 147.6755 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FFC-FPC:TE_84952_4"
-			(at 273.05 150.2155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_FFC-FPC:TE_84952-4_1x04-1MP_P1.0mm_Horizontal"
-			(at 270.51 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 270.51 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 270.51 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d6a19cd9-a9de-4fcc-b009-a706f0dcb8f6")
-		)
-		(pin "3"
-			(uuid "cf4d5dcc-68b2-4758-b8ee-78ac42678ecd")
-		)
-		(pin "MP"
-			(uuid "b1d04e28-8ee9-4838-9421-5b144a65afa4")
-		)
-		(pin "2"
-			(uuid "070c3bb0-40aa-4cd2-92b3-152a180f5d59")
-		)
-		(pin "4"
-			(uuid "b0186052-974c-45ae-9cf3-a756e6567fd2")
-		)
-		(instances
-			(project "com_board"
-				(path "/8f830a27-f69a-4af7-bd4a-41b62e371af3"
-					(reference "POW_5V1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 245.11 147.32 90)
+		(at 246.38 147.32 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13169,7 +13282,7 @@
 		(dnp no)
 		(uuid "d5543114-aa74-4353-b62c-9dfd0db1dc72")
 		(property "Reference" "TP6"
-			(at 239.268 148.59 90)
+			(at 240.538 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13177,7 +13290,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 247.142 148.59 90)
+			(at 248.412 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13185,7 +13298,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 245.11 142.24 0)
+			(at 246.38 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13194,7 +13307,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 142.24 0)
+			(at 246.38 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13203,7 +13316,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 245.11 147.32 0)
+			(at 246.38 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1,0 +1,39 @@
+### Footprint positions - created on 2025-08-04T15:01:33+0300 ###
+### Printed by KiCad version 9.0.1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref       Val                          Package                                             PosX       PosY       Rot  Side
+C1          12pF                         C_0201_0603Metric                               132.2200  -100.6500    0.0000  top
+C2          12pF                         C_0201_0603Metric                               129.7500  -100.6500  180.0000  top
+C3          12pF                         C_0201_0603Metric                               134.4500  -110.3300  -90.0000  top
+C4          12pF                         C_0201_0603Metric                               132.0950  -112.4800    0.0000  top
+C5          100nF                        C_0201_0603Metric                               134.1200  -107.8900    0.0000  top
+C6          100nF                        C_0201_0603Metric                               134.2350  -103.6300    0.0000  top
+C7          100nF                        C_0201_0603Metric                               134.2400  -102.3400    0.0000  top
+C8          1uF                          C_0402_1005Metric_Pad0.74x0.62mm_HandSolder     127.6300   -99.9700   90.0000  top
+C9          4.7uF                        C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     121.5200  -107.4600  180.0000  top
+C10         4.7uF                        C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     126.0400  -100.0300   90.0000  top
+C11         100pF                        C_0201_0603Metric                               130.2500  -109.9400  -90.0000  top
+C12         1uF                          C_0402_1005Metric_Pad0.74x0.62mm_HandSolder     134.8100  -104.9700    0.0000  top
+C13         4.7uF                        C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     124.1100  -103.1100  180.0000  top
+C14         1.0pF                        C_0201_0603Metric                               127.2200  -111.1700  180.0000  top
+C15         1.2pF                        C_0201_0603Metric                               127.2400  -112.0300  180.0000  top
+C16         820pF                        C_0201_0603Metric                               125.7800  -108.2800  180.0000  top
+C17         1uF                          C_0402_1005Metric_Pad0.74x0.62mm_HandSolder     142.9600  -117.6000    0.0000  top
+C18         1uF                          C_0402_1005Metric_Pad0.74x0.62mm_HandSolder     142.9600  -115.3200    0.0000  top
+IC1         nRF52820-QDAA-R              QFN40P500X500X90-41N-D                          129.8800  -105.4400  -90.0000  top
+J1          USB_C_Receptacle_USB2.0_16P  USB_C_Receptacle_GCT_USB4110                    139.6600   -89.7700  180.0000  top
+J2          Conn_ST_STDC14               PinHeader_2x07_P1.27mm_Vertical_SMD             125.1500   -90.2900  -90.0000  top
+J3          U.FL-R-SMT_01_               HRS_U.FL-R-SMT_01_                              128.4400  -117.7400  180.0000  top
+L1          4.7nH                        L_0201_0603Metric_Pad0.64x0.40mm_HandSolder     128.4900  -111.5975  -90.0000  top
+L2          2.2nH                        L_0201_0603Metric_Pad0.64x0.40mm_HandSolder     128.5000  -113.5200  -90.0000  top
+R1          5.1K                         R_0402_1005Metric_Pad0.72x0.64mm_HandSolder     142.2800   -96.3900   90.0000  top
+R2          5.1K                         R_0402_1005Metric_Pad0.72x0.64mm_HandSolder     136.6600   -96.3500   90.0000  top
+R3          5.1K                         R_0402_1005Metric_Pad0.72x0.64mm_HandSolder     100.2700   -95.9600    0.0000  top
+U1          BU-01                        BU-01                                            97.1350  -110.9900   90.0000  top
+U2          USBLC6-2SC6                  SOT-23-6                                        139.4825   -97.2500  -90.0000  top
+U5          AP2112K-3.3                  SOT-23-5                                        139.6425  -116.4600  -90.0000  top
+UART_conn1  FFC-FPC:TE_84952_6           TE_84952-6_1x06-1MP_P1.0mm_Horizontal           146.9800  -104.7100   90.0000  top
+Y1          32.768kHz_Cl=9pF             Crystal_SMD_2012-2Pin_2.0x1.2mm_HandSoldering   130.9900   -98.9200    0.0000  top
+Y2          32MHz_Cl=8pF                 Crystal_SMD_2016-4Pin_2.0x1.6mm                 132.4700  -110.5500    0.0000  top
+## End
